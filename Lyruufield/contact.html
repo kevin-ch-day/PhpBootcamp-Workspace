@@ -16,7 +16,28 @@
             <li><a href="productListing.html">Product List</a></li>
         </ul>
         <hr/>
-        <p>Contact Us</p>
+
+        <h1>Drop Us a Line</h1>
+        <p>Your feedback is really important to us , so please feel free to drop us a line.</p>
+        <table>
+        <form method="get" action="formResults.html">
+            <tr><td><label for="name">Name: </label></td>
+                <td><input type="text" id="name" placeholder="First Name & Last Name" name="name"></td>
+            </tr><tr>
+                <td><label for="email">E-mail: </label></td>
+                <td><input type="email" id="email" placeholder="User@gmail.com" name="email"></td>
+            </tr><tr>
+                <td><label for="subject">Subject: </label></td>
+                <td><input type="text" id="subject" placeholder="Email Subject" name="subject"></td>
+            </tr>
+                <td><label for="message">Message:</label></td><td>
+                <textarea id="message" name="message" rows="5" cols="30"></textarea></td>
+            </tr>
+            <tr>
+                <td><input type="submit"></td><td><input type="reset" value="Clear"></td>
+            </tr>
+        </form>
+        </table>
         <p>Copyrights (C) 2023</p>
     </body>
 </html>
